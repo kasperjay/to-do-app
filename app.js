@@ -36,7 +36,7 @@ function onReady() {
   }
 
 
-  addToDoForm.addEventListenere('submit', event => {
+  addToDoForm.addEventListener('submit', event => {
     event.preventDefault();
     createNewToDo();
     newToDoText.value = '';
